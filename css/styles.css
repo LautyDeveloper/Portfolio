@@ -13,7 +13,7 @@
 }
 body {
   background-color: var(--backgroundPrincipal);
-  width: 100vw;
+  max-width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,6 @@ body {
   align-items: center;
 }
 .container {
-  width: 1200px;
   height: auto;
   background-color: var(--backgroundRojoOscuro);
   border: 24px solid var(--bordeContainer);
