@@ -12,9 +12,20 @@
   --backgroundCTA: #c90000;
 }
 body {
-  background-image: ;
+  background-color: var(--backgroundPrincipal);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container {
+  width: 1200px;
+  height: auto;
+  background-color: var(--backgroundRojoOscuro);
+  border: 24px solid var(--bordeContainer);
+  border-radius: 80px;
   width: 1200px;
   height: auto;
 }
