@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --backgroundPrincipal: #232323;
+  --backgroundRojoOscuro: #260000;
+  --bordeContainer: #3a0000;
+  --backgroundCuadros: #fffafa;
+  --backgroundBadges: #260000;
+  --backgroundCTA: #c90000;
+}
+body {
+  background-image: ;
+}
+.container {
+  width: 1200px;
+  height: auto;
+}
