@@ -16,7 +16,12 @@
 .containers:last-child {
   margin-bottom: 40px;
 }
-
+.section {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #fffafa;
+}
 .container .presentation-container {
   grid-template-columns: repeat(2, 170px);
   grid-template-rows: repeat(3, 170px);
@@ -24,26 +29,14 @@
 .presentation {
   grid-column: 1 / -1;
   grid-row: 1 / 3;
-  width: 100%;
-  height: 100%;
-  background-color: aqua;
-  border-radius: 20px;
 }
 .linkedin {
   grid-column: 1 / 2;
   grid-row: 3 / -1;
-  width: 100%;
-  height: 100%;
-  background-color: cadetblue;
-  border-radius: 20px;
 }
 .current-location {
   grid-column: 2 / -1;
   grid-row: 3 / -1;
-  width: 100%;
-  height: 100%;
-  background-color: cadetblue;
-  border-radius: 20px;
 }
 .projects-container {
   grid-template-columns: repeat(2, 170px);
@@ -52,34 +45,18 @@
 .main-project {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgb(152, 91, 0);
 }
 .secondary-project {
   grid-column: 2 / -1;
   grid-row: 1 / 2;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: navajowhite;
 }
 .second2 {
   grid-column: 1 / 2;
   grid-row: 2 / -1;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgb(173, 193, 255);
 }
 .second {
   grid-column: 2 / -1;
   grid-row: 2 / -1;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  background-color: rgb(129, 77, 0);
 }
 .social-container {
   grid-template-columns: repeat(3, 110px);
@@ -88,26 +65,14 @@
 .uno {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  width: 100%;
-  height: 100%;
-  background-color: rebeccapurple;
-  border-radius: 10px;
 }
 .dos {
   grid-column: 2 / 3;
   grid-row: 1 / -1;
-  width: 100%;
-  height: 100%;
-  background-color: rebeccapurple;
-  border-radius: 10px;
 }
 .tres {
   grid-column: 3 / -1;
   grid-row: 1 / -1;
-  width: 100%;
-  height: 100%;
-  background-color: rebeccapurple;
-  border-radius: 10px;
 }
 /*
 .container .presentation-container {
