@@ -23,8 +23,8 @@ body {
 .container {
   height: auto;
   background-color: var(--backgroundRojoOscuro);
-  border: 24px solid var(--bordeContainer);
+  border: 10px solid var(--bordeContainer);
   border-radius: 80px;
-  width: 1200px;
+  width: 400px;
   height: auto;
 }
