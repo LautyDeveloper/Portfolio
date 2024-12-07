@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 :root {
   --backgroundPrincipal: #232323;
   --backgroundRojoOscuro: #260000;
   --bordeContainer: #3a0000;
   --backgroundCuadros: #fffafa;
-  --backgroundBadges: #260000;
+  --backgroundBadges: #ffd9d9;
   --backgroundCTA: #c90000;
 }
 body {
@@ -28,6 +29,72 @@ body {
   width: 400px;
   height: auto;
 }
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.presentation .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100px;
+  width: 90%;
+}
+.presentation .card-top .image {
+  height: 100%;
+  width: 100px;
+  background-color: var(--backgroundBadges);
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+}
+.presentation .card-top .badge {
+  width: 120px;
+  height: 30px;
+  background-color: var(--backgroundBadges);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 45%;
+}
+.presentation .card-bottom .text {
+  display: grid;
+  place-items: center;
+  width: 90%;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.presentation .card-bottom .button {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .card-bottom .button button {
+  background-color: var(--backgroundCTA);
+  width: 250px;
+  height: 100%;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  /* box-shadow: 2px 2px 10px var(--backgroundPrincipal); Esto, es para cuando se le haga el Hover =)*/
+}
+
 @media (min-width: 1024px) {
   .container {
     width: 1200px;
