@@ -94,6 +94,27 @@ body {
   letter-spacing: 2px;
   /* box-shadow: 2px 2px 10px var(--backgroundPrincipal); Esto, es para cuando se le haga el Hover =)*/
 }
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkedin .card-top .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: var(--backgroundBadges);
+  display: grid;
+  place-items: center;
+}
+.linkedin .card-top .badge {
+  display: none;
+}
+.linkedin .card-bottom {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 
 @media (min-width: 1024px) {
   .container {
