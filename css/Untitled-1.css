@@ -102,7 +102,6 @@ body {
 }
 .linkedin .card-top {
   display: flex;
-  flex-direction: column;
 }
 
 .linkedin .card-top .image {

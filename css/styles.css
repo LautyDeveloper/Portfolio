@@ -255,4 +255,93 @@ body {
     font-size: 2rem;
     font-weight: 500;
   }
+  .main-project {
+    justify-content: space-around;
+  }
+  .main-project .card-top {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-project .card-top .image {
+    width: 150px;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .main-project .card-top .badges-container {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .main-project .card-top .badge {
+    display: grid;
+    place-items: center;
+    border-radius: 100px;
+    background-color: var(--backgroundBadges);
+    width: 120px;
+    height: 40px;
+  }
+  .main-project .card-bottom {
+    height: auto;
+  }
+  .main-project .card-bottom .text {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .main-project .card-bottom .text h3 {
+    font-size: 1.9rem;
+  }
+
+  .main-project .card-bottom .text p {
+    display: block;
+    font-size: 1.4rem;
+  }
+  .main-project .card-bottom .buttons {
+    display: none;
+  }
+  .secondary-project .card-top {
+    height: 300px;
+    width: 90%;
+  }
+  .secondary-project .card-bottom {
+    display: grid;
+    place-items: center;
+  }
+  .secondary-project .card-top .image {
+    height: 100%;
+  }
+  .secondary-project .card-bottom .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 65%;
+  }
+  .secondary-project .card-bottom .text h3{
+    font-size: 1.9rem;
+  }
+  .secondary-project .card-bottom .text p{
+    display: block;
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  .secondary-project .card-bottom .buttons{
+    height: 80px;
+    width: 70%;
+  }
+  .secondary-project .card-bottom .buttons button{
+    height: 100%;
+    width: 80px;
+  }
+
+
+  }
 }
