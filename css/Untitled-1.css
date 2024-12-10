@@ -102,9 +102,9 @@ body {
 }
 .linkedin .card-top {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
+
 .linkedin .card-top .image {
   width: 80px;
   height: 80px;
@@ -194,65 +194,4 @@ body {
   background-color: var(--backgroundBadges);
   display: grid;
   place-items: center;
-}
-
-@media (min-width: 1024px) {
-  .container {
-    width: 1200px;
-    border-radius: 80px;
-  }
-  .presentation .card-top {
-    height: 200px;
-  }
-  .presentation .card-top .image {
-    width: 200px;
-  }
-  .presentation .card-top .badge {
-    width: 200px;
-    height: 50px;
-  }
-  .presentation .card-bottom {
-    align-items: flex-start;
-    text-align: start;
-    height: 30%;
-    width: 90%;
-  }
-  .presentation .card-bottom .text {
-    width: 90%;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .presentation .card-bottom .button {
-    height: 60px;
-    justify-content: flex-start;
-  }
-  .presentation .card-bottom .button button {
-    width: 400px;
-  }
-  .linkedin {
-    justify-content: space-around;
-  }
-  .linkedin .card-top {
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 90%;
-  }
-  .linkedin .card-top .image {
-    width: 100px;
-    height: 100px;
-  }
-  .linkedin .card-top .badge {
-    display: grid;
-    place-items: center;
-    width: 140px;
-    height: 40px;
-    background-color: var(--backgroundBadges);
-    border-radius: 100px;
-  }
-  .linkedin .card-bottom {
-    text-align: left;
-    width: 90%;
-    font-size: 2rem;
-    font-weight: 500;
-  }
 }
