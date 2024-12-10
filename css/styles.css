@@ -196,4 +196,32 @@ body {
     width: 1200px;
     border-radius: 80px;
   }
+  .presentation .card-top {
+    height: 200px;
+  }
+  .presentation .card-top .image {
+    width: 200px;
+  }
+  .presentation .card-top .badge {
+    width: 200px;
+    height: 50px;
+  }
+  .presentation .card-bottom {
+    align-items: flex-start;
+    text-align: start;
+    height: 30%;
+    width: 90%;
+  }
+  .presentation .card-bottom .text {
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .presentation .card-bottom .button {
+    height: 60px;
+    justify-content: flex-start;
+  }
+  .presentation .card-bottom .button button {
+    width: 400px;
+  }
 }
