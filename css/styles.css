@@ -13,7 +13,7 @@
   --backgroundCTA: #c90000;
 }
 body {
-  background-color: var(--backgroundPrincipal);
+  background-color: var(--backgroundPrincipal) !important;
   max-width: 100vw;
   height: auto;
   display: flex;
@@ -110,6 +110,15 @@ body {
   height: 80px;
   border-radius: 100%;
   background-color: var(--backgroundBadges);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkedin .card-top .image i {
+  color: var(--bordeContainer);
+  width: 90%;
+  height: 90%;
+  font-size: 2.5rem;
   display: grid;
   place-items: center;
 }
@@ -195,6 +204,14 @@ body {
   display: grid;
   place-items: center;
 }
+.social-card .card-top .image i {
+  display: grid;
+  place-items: center;
+  width: 90%;
+  height: 90%;
+  font-size: 2rem;
+  color: var(--bordeContainer);
+}
 
 @media (min-width: 1024px) {
   .container {
@@ -240,6 +257,9 @@ body {
   .linkedin .card-top .image {
     width: 100px;
     height: 100px;
+  }
+  .linkedin .card-top .image i {
+    font-size: 3.5rem;
   }
   .linkedin .card-top .badge {
     display: grid;
@@ -353,6 +373,9 @@ body {
   .social-card .card-top .image {
     width: 100px;
     height: 100%;
+  }
+  .social-card .card-top .image i {
+    font-size: 3.5rem;
   }
   .social-card .card-top .badge {
     display: grid;
