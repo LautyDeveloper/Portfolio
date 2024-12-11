@@ -318,30 +318,52 @@ body {
   .secondary-project .card-top .image {
     height: 100%;
   }
-  .secondary-project .card-bottom .text{
+  .secondary-project .card-bottom .text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 65%;
   }
-  .secondary-project .card-bottom .text h3{
+  .secondary-project .card-bottom .text h3 {
     font-size: 1.9rem;
   }
-  .secondary-project .card-bottom .text p{
+  .secondary-project .card-bottom .text p {
     display: block;
     font-size: 1.5rem;
     width: 70%;
   }
-  .secondary-project .card-bottom .buttons{
+  .secondary-project .card-bottom .buttons {
     height: 80px;
     width: 70%;
   }
-  .secondary-project .card-bottom .buttons button{
+  .secondary-project .card-bottom .buttons button {
     height: 100%;
     width: 80px;
   }
-
-
+  .social-card {
+    justify-content: space-around;
+  }
+  .social-card .card-top {
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    height: 100px;
+  }
+  .social-card .card-top .image {
+    width: 100px;
+    height: 100%;
+  }
+  .social-card .card-top .badge {
+    display: grid;
+    background-color: var(--backgroundBadges);
+    width: 140px;
+    height: 40px;
+    border-radius: 100px;
+    place-items: center;
+  }
+  .social-card .text h5 {
+    font-size: 2.5rem;
+    font-weight: 100;
   }
 }
