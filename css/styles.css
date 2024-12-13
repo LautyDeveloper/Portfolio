@@ -58,6 +58,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 10px #cecece;
 }
 .presentation .card-bottom {
   display: flex;
@@ -189,6 +191,7 @@ body {
   border: none;
   outline: none;
   background-color: var(--backgroundCTA);
+  box-shadow: 4px 4px 10px #a0a0a0;
 }
 .project .card-bottom .buttons button i {
   font-size: 1.5rem;
@@ -246,6 +249,7 @@ body {
   .presentation .card-top .badge {
     width: 200px;
     height: 50px;
+    font-size: 2rem;
   }
   .presentation .card-bottom {
     align-items: flex-start;
@@ -289,6 +293,8 @@ body {
     height: 40px;
     background-color: var(--backgroundBadges);
     border-radius: 100px;
+    font-size: 1.3rem;
+    box-shadow: 4px 4px 10px #cecece;
   }
   .linkedin .card-bottom {
     text-align: left;
@@ -323,8 +329,12 @@ body {
     place-items: center;
     border-radius: 100px;
     background-color: var(--backgroundBadges);
-    width: 120px;
+    width: auto;
+    min-width: 100px;
     height: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    box-shadow: 4px 4px 10px #cecece;
   }
   .main-project .card-bottom {
     height: auto;
@@ -404,10 +414,13 @@ body {
   .social-card .card-top .badge {
     display: grid;
     background-color: var(--backgroundBadges);
-    width: 140px;
+    width: auto;
+    min-width: 120px;
     height: 40px;
     border-radius: 100px;
     place-items: center;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px 10px #cecece;
   }
   .social-card .text h5 {
     font-size: 2.5rem;
