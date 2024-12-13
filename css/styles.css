@@ -65,15 +65,20 @@ body {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  height: 45%;
+  height: 50%;
 }
 .presentation .card-bottom .text {
   display: grid;
   place-items: center;
   width: 90%;
-  font-size: 0.7rem;
-  font-weight: 500;
 }
+.presentation .card-bottom .text h1 {
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .presentation .card-bottom .button {
   height: 30px;
   width: 100%;
@@ -175,10 +180,21 @@ body {
 .project .card-bottom .buttons button {
   height: 40px;
   width: 40px;
+  display: grid;
+  place-items: center;
   border-radius: 100%;
   border: none;
   outline: none;
   background-color: var(--backgroundCTA);
+}
+.project .card-bottom .buttons button i {
+  font-size: 1.5rem;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--backgroundCuadros);
 }
 .social-card {
   display: flex;
@@ -236,7 +252,9 @@ body {
   }
   .presentation .card-bottom .text {
     width: 90%;
-    font-size: 1rem;
+  }
+  .presentation .card-bottom .text h1 {
+    font-size: 2rem;
     font-weight: 700;
   }
   .presentation .card-bottom .button {
@@ -360,6 +378,9 @@ body {
   .secondary-project .card-bottom .buttons button {
     height: 100%;
     width: 80px;
+  }
+  .secondary-project .card-bottom .buttons button i {
+    font-size: 3rem;
   }
   .social-card {
     justify-content: space-around;
