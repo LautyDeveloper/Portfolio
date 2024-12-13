@@ -152,6 +152,9 @@ body {
   border-radius: 20px;
   background-color: #d9d9d9;
 }
+.project .card-top .badges-container {
+  display: none;
+}
 .project .card-bottom {
   height: 50%;
   width: 100%;
