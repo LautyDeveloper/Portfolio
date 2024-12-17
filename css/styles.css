@@ -120,6 +120,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.18s ease-in-out;
 }
 .linkedin .card-top .image i {
   color: var(--bordeContainer);
@@ -131,6 +132,7 @@ body {
 }
 .linkedin .card-top .badge {
   display: none;
+  transition: all 0.18s ease-in-out;
 }
 .linkedin .card-bottom {
   font-size: 1.2rem;
@@ -214,6 +216,7 @@ body {
   align-items: center;
   width: 100%;
   height: 50px;
+  transition: all 0.2s ease-in-out;
 }
 .social-card .card-top .badge {
   display: none;
@@ -234,7 +237,20 @@ body {
   font-size: 2rem;
   color: var(--bordeContainer);
 }
-
+/* Hovers */
+.linkedin:hover .card-top .image {
+  transform: scale(1.1);
+}
+.linkedin:hover .card-top .badge {
+  transform: scale(1.1);
+}
+.project .card-bottom .buttons button:hover {
+  background-color: #d60303;
+  transform: scale(1.05);
+}
+.social-card:hover .card-top {
+  transform: scale(1.05);
+}
 @media (min-width: 1024px) {
   .container {
     width: 1200px;
