@@ -6,8 +6,9 @@
 }
 .containers {
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   display: grid;
+  width: 380px;
 }
 .containers:first-child {
   margin-top: 40px;
@@ -22,7 +23,7 @@
   background-color: #fffafa;
 }
 .container .presentation-container {
-  grid-template-columns: repeat(2, 170px);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 170px);
 }
 .presentation {
@@ -38,7 +39,7 @@
   grid-row: 3 / -1;
 }
 .projects-container {
-  grid-template-columns: repeat(2, 170px);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 250px);
 }
 .main-project {
@@ -58,7 +59,7 @@
   grid-row: 2 / -1;
 }
 .social-container {
-  grid-template-columns: repeat(3, 110px);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 110px;
 }
 .uno {
@@ -70,18 +71,19 @@
   grid-row: 1 / -1;
 }
 .tres {
-  grid-column: 3 / -1;
+  grid-column: 3 / 4;
   grid-row: 1 / -1;
 }
 @media (min-width: 1024px) {
   .containers {
     gap: 20px;
+    width: 1100px;
   }
   .section {
     border-radius: 20px;
   }
   .container .presentation-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 350px);
   }
   .presentation {
@@ -97,7 +99,7 @@
     grid-row: 2 / -1;
   }
   .projects-container {
-    grid-template-columns: repeat(2, 540px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 325px);
   }
   .main-project {
@@ -115,7 +117,7 @@
     grid-column: 2 /3;
   }
   .social-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 350px;
   }
   .social-card {
